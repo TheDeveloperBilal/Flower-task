@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+
+
+#header{
+    background-color: none;
+    height: 100px;
+}
+
+
+
+#header input {
+    padding: 10px 18px;
+    font-size: 17px;
+    border: 2px solid #5a5959;
+    border-radius: 100px;
+    right: 30px;
+    top: 33px;
+    text-align-last: center;
+    position: absolute;
+}
+
+
+
+#logo-main{
+    top: 10px;
+    left: 70px;
+    position:absolute;
+}
+
+
+
+#alfalah{
+    position: absolute;
+    right: 430px;
+    top: 33px;
+}
+
+
+
+#visa{
+    position: absolute;
+    right: 390px;
+    top: 39px;
+}
+
+
+#western-union{
+    position: absolute;
+    right: 348px;
+    top: 39px;
+}
+
+
+
+#mobilink{
+    position: absolute;
+    right: 306px;
+    top: 39px;
+}
+
+
+#mobilink,#western-union,#visa,#alfalah:hover{
+    cursor: pointer;
+}
+
+
+
+#navbar{
+    padding: 10px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+
+
+#navbar li{
+    display: inline-block;
+    font-size: 19px;
+    margin: -3px 15px;
+    font-family: sans-serif;
+    color: #423e3e;
+    cursor: pointer;
+}
+
+
+
+#navbar li:hover{
+    text-decoration: underline;    
+}
+
+
+
+#navbar ul{
+  margin: 0px 60px;
+}
+
+
+
+#navbar button:hover{
+    cursor: pointer;
+}
+
+
+
+#product{
+    position: absolute;
+   margin: 0px 100px;
+}
+
+
+#product-main{
+    position: relative;
+    width: 490px;
+    height: 655px;
+    display: inline-block;
+    margin: 0px 650px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+
+
+#rating-stars{
+    display: block;
+    width: 6rem;
+    height: 1rem;
+}
+
+
+
+#product-main h1{
+     font-family: serif;
+     font-size: 35px;
+}
+
+
+
+.cart-range{
+    font-size: 20px;
+    padding: 6px;
+    margin: 0px 0px 0px 0px ;
+}
+
+
+
+.cart-btn{
+    font-size: 20px;
+    padding: 9px;
+    margin: 3px 11px 9px 20px;
+    border: none;
+    background-color: #de4f1d;
+    color: white;
+}
+
+
+
+.cart-btn:hover{
+    background-color: #ff4200;
+    cursor: pointer;
+    
+}
+
+
+
+#product-main input{
+    padding: 6px;
+    font-size: 1.25rem;
+    width: 35px;
+}
+
+
+
+#discription-main{
+    width: 1000px;
+    margin: 0px 210px;
+    font-family: sans-serif;
+    border-top: 2px solid;
+}
+
+
+#discription-main h5{
+    font-size: 20px;
+}
+
+
+#discription-main a{
+    text-decoration: none;
+}
+
+
+
+#faq-main{
+    width: 1000px;
+    margin: 10px 210px;
+    font-family: sans-serif;
+    
+}
+
+
+#faq-main h3{
+    font-size: 1.5rem;
+    margin: 10px 0px ;
+}
+   
+
+
+#related-products h3{
+   font-size: 30px;
+
+}
+
+
+#related-products{
+    margin: 50px 100px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+
+#related-products figure{
+   display: inline-block;
+   margin: 10px;
+}
+
+
+#related-products a{
+   font-size: 1rem;
+   text-decoration: none;
+}
